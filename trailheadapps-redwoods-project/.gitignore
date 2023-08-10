@@ -1,0 +1,20 @@
+DerivedData
+project.xcworkspace
+*.iml
+*.xcworkspace/
+*~
+.DS_Store
+.github/
+.idea/
+.metadata/
+.settings/
+bin/
+build/
+coverage.em
+coverage/
+instrumentation/
+junit-reports/
+local.properties
+xcuserdata
+/Salesforce Org Setup/.sfdx
+.vscode

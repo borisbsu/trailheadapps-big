@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "2 - Progressive Web App and Lead Generation",
+  "steps": [
+    {
+      "file": "apps/ecars-pwa/src/client/index.js",
+      "line": 12,
+      "title": "Progressive Web App (PWA)",
+      "description": "The Progressive Web App (PWA) uses native browser features for WebPush.\n\nThe user interface is built using Lightning Web Components (LWC), which you can register as native custom elements using the new `CustomElementConstructor`."
+    },
+    {
+      "file": "apps/ecars-pwa/src/client/modules/ux/product/product.html",
+      "line": 3,
+      "title": "Lightning Base Components",
+      "description": "The user interface is built using reusable Lightning Base Components for LWC.\n\nThese components are available [here on npm](https://www.npmjs.com/package/lightning-base-components)."
+    },
+    {
+      "file": "apps/ecars-pwa/src/server/api.js",
+      "line": 51,
+      "title": "Composite Graph API",
+      "description": "Leads for new cars are submited to the Salesforce Platform thanks to the [Composite Graph API](https://developer.salesforce.com/blogs/2020/09/learn-moar-with-winter-21-composite-graph-api.html).\n\nThe Composite Graph API lets you to commit up to 500 related objects within a single transaction."
+    },
+    {
+      "file": "apps/ecars-pwa/src/server/api.js",
+      "line": 71,
+      "title": "Persistence to Heroku Postgres",
+      "description": "Once a lead is successfully submitted, the information is stored within a Heroku Postgres database."
+    },
+    {
+      "file": "force-app/main/default/classes/WebPushService.cls",
+      "line": 3,
+      "title": "WebPush from Salesforce",
+      "description": "WebPush messages are from Salesforce to specific leads thanks to this simple Apex controller method."
+    }
+  ]
+}
